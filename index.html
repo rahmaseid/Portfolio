@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <title>Rahma Seid's Portfolio</title>
+
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <nav>
+            <div class="left">
+                <a href="#about-section">Rahma Seid</a>
+            </div>
+
+            <div class="right">
+                <a href="#about-section">About</a>
+
+                <a href="#projects-section">Projects</a>
+
+                <a href="#skills-section">Skills</a>
+                
+                <a href="#connect-section">Connect</a>
+            </div>
+        </nav>
+
+        <!--Section 1-->
+        <main>
+            <!--About Section-->
+            <section id="about-section" class="#about-section">
+                <h2>Hello World, I'm Rahma!</h2>
+                <div class="headshot">
+                    <picture>
+                        <img src="imgweb/headshot_2.webp" alt="headshot">
+                    </picture>
+                
+                </div>
+                <div class="bio">
+                    <p>
+                        Hey! I'm Rahma, a senior at MTSU studying Computer Science with a focus on software development and product management.
+                        I love building projects that combine data-driven thinking with user-centered design to create meaningful tools.
+                        As Vice President of my school’s ACM Chapter, I’ve led initiatives that foster teamwork, creativity, and technical growth within our community.
+                    </p>
+                    <br>
+                    <p>
+                        When I'm not coding, you'll find me playing soccer, reading, or creating content.
+                    </p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/rahmaseid" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rahma-seid/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <!--
+                    <a href="https://www.instagram/ramcodesthis/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    -->
+
+                    <a href="mailto:seidrahma6@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+
+            </section>
+            <div class="divider"></div>
+
+            <!--Academic Section-->
+            <section id="projects-section" class="projects-section">
+                <h2>Projects</h2>
+
+                <div class="projects-subsection">
+                    <h3>Academic</h3>
+                    <!-- Swiper Container -->
+                    <div class="swiper card-swiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- Project 1 -->
+                            <div class="swiper-slide">
+                                <div class="project-box">
+                                    <picture>
+                                        <img src="imgweb/mtsu_marketplace.webp" alt="MTSU Marketplace">
+                                    </picture>
+
+                                    <h4>MTSU Marketplace, Frontend</h4>
+                                    <h5>Kotlin, Android Studio, Supabase</h5>
+                                    <p>
+                                        MTSU Marketplace is a mobile app built in Kotlin that allows MTSU
+                                        students to buy and sell items securely in their campus community.
+                                    </p>
+
+                                    <span class="status-badge completed">Completed, November 2025</span>
+
+                                    <div class="project-buttons">
+                                        <a href="https://github.com/rahmaseid/MTSUMarketPlace" target="_blank" class="btn github-btn">GitHub</a>
+                                        <a href="#" target="_blank" class="btn paper-btn">Paper</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 2 -->
+                            <div class="swiper-slide">
+                                <div class="project-box">
+                                    <picture>
+                                        <img src="imgweb/campus_cybersecurity.webp" alt="Campus Cybersecurity">
+                                    </picture>
+
+                                    <h4>Campus CyberSecurity, Database</h4>
+                                    <h5>HTML/CSS, Python, SQL</h5>
+                                    <p>
+                                        Campus Cybersecurity is a website designed to educate high school and
+                                        college students on the basics of cybersecurity and digital safety.
+                                    </p>
+
+                                    <span class="status-badge completed">Completed, November 2025</span>
+
+                                    <div class="project-buttons">
+                                        <a href="https://github.com/cheaptrix2/MTSUFall2025CampusCyberSecurity" target="_blank" class="btn github-btn">GitHub</a>
+                                        <a href="http://campuscybersecurity.com/" target="_blank" class="btn live-btn">Live Site</a>
+                                        <a href="#" target="_blank" class="btn paper-btn">Paper</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+                <!--Personal Projects Subsection-->
+                <div class="projects-subsection">
+                    <h3>Personal Projects</h3>
+                    <div #swiperRef="" class="swiper card-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="project-box">
+                                    <picture>
+                                        <img src="imgweb/father_day_2025.webp" alt="FatherDayGift">
+                                    </picture>
+
+                                    <h4>Father's Day Gift</h4>
+                                    <h5>HTML/CSS, JavaScript, TypeScript</h5>
+                                    <p>
+                                        A personalized website built to celebrate my dad. 
+                                        It features memories, photos, and messages that reflect his love, guidance, and the lessons he’s shared.
+                                    </p>
+
+                                    <span class="status-badge completed">Completed, June 2025</span>
+
+                                    <div class="project-buttons">
+                                        <a href="https://github.com/rahmaseid/FatherDayGift" target="_blank" class="btn github-btn">GitHub</a>
+                                        <a href="https://father-day-gift-35tq-jk4ct5c5k-rahmaseids-projects.vercel.app/" target="_blank" class="btn live-btn">Live Site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!--Skills Section-->
+            <section id="skills-section">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-git-alt"></i>
+                    <i class="fa-solid fa-database"></i>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!--Connect Section-->
+            <section id="connect-section">
+                <h2>Leave a Message!</h2>
+                <div class="group">
+                    <div class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+                    </div>
+
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="30" rows="10"></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                
+            </section>
+        </main>
+
+        <!-- Swiper JS -->
+        <footer>
+            <p>&copy; <span id="year"></span> Rahma Seid. All Rights Reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 50,
+                slidesPerView: 1,
+                breakpoints: {
+                    640: { slidesPerView: 1.15, spaceBetween: 40 },
+                    768: { slidesPerView: 1.6, spaceBetween: 50 },
+                    1024: { slidesPerView: 2.2, spaceBetween: 60 }
+                }
+            });
+        });
+    </script>
+    </body>
+</html>

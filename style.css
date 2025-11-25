@@ -103,8 +103,8 @@ section h2::after {
     border-radius: 2px;
 }
 
-/* About Section */
-#about-section {
+/* Home Section */
+#home-section {
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
@@ -115,13 +115,13 @@ section h2::after {
     gap: 0.5rem;
 }
 
-#about-section h2 {
+#home-section h2 {
     margin-bottom: 1rem;
     font-size: 2.75rem;
     font-weight: 700;
 }
 
-#about-section .headshot {
+#home-section .headshot {
     width: 20rem;
     height: 20rem;
     overflow: hidden;
@@ -131,7 +131,7 @@ section h2::after {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-#about-section .headshot img {
+#home-section .headshot img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -140,36 +140,36 @@ section h2::after {
 }
 
 
-#about-section .bio {
+#home-section .bio {
     margin-bottom: 2rem;
     padding: 0 2rem;
     max-width: 56.25rem;
 }
 
-#about-section .bio p {
+#home-section .bio p {
     font-size: 1.25rem;
     font-weight: 300;
 }
 
-#about-section .social-links {
+#home-section .social-links {
     font-size: 1.50rem;
 }
 
-#about-section .social-links a {
+#home-section .social-links a {
     padding: 0;
     margin: 0 0.75rem;
 }
 
-#about-section .social-links a i {
+#home-section .social-links a i {
     transition: transform 0.3s, color 0.3s;
 }
 
-#about-section .social-links a:hover i {
+#home-section .social-links a:hover i {
     color: #a5d6b0;
     transform: scale(1.2);
 }
 
-#about-section .social-links i {
+#home-section .social-links i {
     color: #588061;
     font-weight: 500;
 }
@@ -409,7 +409,7 @@ footer {
         margin: 0 0.5rem;
     }
 
-    #about-section .headshot {
+    #home-section .headshot {
         width: 18rem;
         height: 18rem;
     }
@@ -433,7 +433,7 @@ footer {
         margin: 0 0.375rem;
     }
 
-    #about-section .headshot {
+    #home-section .headshot {
         width: 16rem;
         height: 16rem;
     }
@@ -465,7 +465,7 @@ footer {
         margin: 0 0.25rem;
     }
 
-    #about-section .social-links {
+    #home-section .social-links {
         font-size: 1.75rem;
     }
 
@@ -473,11 +473,11 @@ footer {
         font-size: 1.75rem;
     }
 
-    #about-section h2 {
+    #home-section h2 {
         font-size: 2.4rem;
     }
 
-    #about-section .headshot {
+    #home-section .headshot {
         width: 12rem;
         height: 12rem;
     }
